@@ -23,7 +23,7 @@ A small project to build a blog preview card which has a link to the main blog p
 
 
 ### Links
-- Live Site URL: [](https://py-code314.github.io/blog-preview-card/)
+- Live Site URL: [https://py-code314.github.io/blog-preview-card/](https://py-code314.github.io/blog-preview-card/)
 
 
 ### Built with
