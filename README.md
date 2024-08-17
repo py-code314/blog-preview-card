@@ -12,6 +12,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
+    - [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -39,4 +40,6 @@ A small project to build a blog preview card which has a link to the main blog p
 ### Useful resources
 - [How to load variable fonts in CSS](https://web.dev/articles/variable-fonts)
 
-
+### Acknowledgments
+- Thanks to Josh Comeau for his [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- Thanks to Darkstar on Frontend Mentor for suggesting to use clamp function for font-size.
