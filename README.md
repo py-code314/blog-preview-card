@@ -30,7 +30,6 @@ A small project to build a blog preview card which has a link to the main blog p
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
 
 ### What I learned
