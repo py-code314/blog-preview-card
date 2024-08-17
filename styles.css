@@ -21,9 +21,7 @@
     --font-size-title: 1.5rem; /* 24px */
     /*Spacing*/
     --space-block: 0.25rem; /* 4px */
-    /* --space-med: calc((8 / 16) * 1rem); */
     --space-bottom: 0.75rem; /* 12px */
-    /* --space-xl: calc((16 / 16) * 1rem); */
     --space-padding: 1.5rem; /* 24px */
 }
 
@@ -89,7 +87,6 @@ img {
     padding-block: var(--space-block);
     background-color: var(--bg-color-main);
     font-weight: 800;
-    /* font-size: var(--font-size-category); */
     font-size: clamp(var(--font-size-category-mobile), calc(0.75rem + ((1vw - 0.2rem) * 0.1786)), var(--font-size-category));
     color: var(--text-color-dark);
 }
