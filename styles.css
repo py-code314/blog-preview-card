@@ -1,32 +1,28 @@
-
+/* Fonts */
 @font-face {
     font-family: "Figtree";
     src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
     font-weight: 100 1000;
 }
 
-
-
+/* Variables */
 :root {
+    /*Background colors*/
     --bg-color-main: #f4d04e;
     --bg-color-card: #fff;
-
+    /*Text colors*/
     --text-color-dark: #111;
     --text-color-light: #6b6b6b;
-
+    /*Font sizes*/
     --font-size-sml: calc((14 / 16) * 1rem);
     --font-size-med: calc((16 / 16) * 1rem);
-    --font-size-lrg: calc((24 / 16) * 1rem);
-    
-    
+    --font-size-lrg: calc((24 / 16) * 1rem);   
+    /*Spacing*/
     --space-sml: calc((4 / 16) * 1rem);
     --space-med: calc((8 / 16) * 1rem);
     --space-lrg: calc((12 / 16) * 1rem);
     --space-xl: calc((16 / 16) * 1rem);
-    --space-xxl: calc((24 / 16) * 1rem);
-   
-    
-    
+    --space-xxl: calc((24 / 16) * 1rem);   
 }
 
 /* Reset */
@@ -55,6 +51,7 @@ img {
     max-width: 100%;
 }
 
+/* Card styling*/
 .blog-card {
     max-width: 24rem;
     border: 1px solid var(--text-color-dark);
@@ -64,10 +61,12 @@ img {
     box-shadow: 8px 8px #000;
 }
 
+/* Card image styling*/
 .blog-card__image {
     border-radius: 10px;
 }
 
+/* Card content styling*/
 .blog-card__content {
     margin-block-start: var(--space-xxl);
     margin-block-end: var(--space-xxl);
@@ -80,6 +79,7 @@ img {
     margin-block-end: var(--space-lrg);
 }
 
+/* Category subtitle styling*/
 .blog-card__category {
     display: inline-block;
     border-radius: 4px;
@@ -91,11 +91,18 @@ img {
     color: var(--text-color-dark);
 }
 
+/* Publish date styling*/
 .blog-card__publish-date {
     font-weight: 500;
     font-size: var(--font-size-sml);
 
 }
+
+/* Title styling*/
+.blog-card__title h2 {
+    font-weight: 800;
+    font-size: var(--font-size-lrg);    
+} 
 
 .blog-card__title {
     display: block;
@@ -103,34 +110,30 @@ img {
     
 }
 
-.blog-card__title:link,
-.blog-card__title:visited {
+.blog-card__title--status:link,
+.blog-card__title--status:visited {
     color: var(--text-color-dark);
 }
 
-.blog-card__title:hover,
-.blog-card__title:focus {
+.blog-card__title--status:hover,
+.blog-card__title--status:focus {
     cursor: pointer;
     color: var(--bg-color-main);
 
 }
 
-.blog-card__title:active {
+.blog-card__title--status:active {
     color: #2288db;
 }
 
-.blog-card__title h2 {
-    font-weight: 800;
-    font-size: var(--font-size-lrg);
-    
-}
-
+/* Card description styling*/
 .blog-card__description {
     font-size: var(--font-size-med);
     font-weight: 500;
     color: var(--text-color-light);
 }
 
+/* Author styling*/
 .blog-card__author {
     display: flex;
     align-items: center;
